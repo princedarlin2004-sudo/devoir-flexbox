@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinfo Portal - Accueil</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; background-color: #f5f7fa; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background-color: #1e3a8a; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        nav { display: flex; gap: 15px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .main-container { display: flex; flex: 1; padding: 20px; gap: 20px; flex-wrap: wrap; }
+        section { flex: 2; background: white; padding: 20px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        aside { flex: 1; background: #e2e8f0; padding: 20px; border-radius: 6px; }
+        footer { background-color: #0f172a; color: white; text-align: center; padding: 15px; margin-top: auto; }
+        @media (max-width: 768px) { .main-container { flex-direction: column; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bioinfo Platform</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="domaines.html">Domaines</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <section>
+            <h2>Introduction à la Bioinformatique</h2>
+            <p>La bioinformatique moderne joue un rôle majeur dans l'analyse des données biologiques complexes. Entre la recherche biomédicale et l'agronomie, ces technologies permettent de comprendre les mécanismes cellulaires et d'optimiser les traitements thérapeutiques de demain.</p>
+        </section>
+        <aside>
+            <h3>Actualité Recherche</h3>
+            <p>Nouvelles avancées sur le séquençage et l'analyse des génomes microbiens. Restons connecter pour suivre l'évolution des projets.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Portail Bioinformatique & Santé</p>
+    </footer>
+
+</body>
+</html>
