@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinfo Portal - Contact</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; background-color: #f5f7fa; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background-color: #1e3a8a; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        nav { display: flex; gap: 15px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .form-container { display: flex; flex: 1; justify-content: center; align-items: center; padding: 20px; }
+        form { background: white; padding: 30px; border-radius: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 400px; }
+        form label { font-weight: bold; }
+        form input, form textarea { padding: 10px; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 1rem; }
+        form button { background-color: #1e3a8a; color: white; border: none; padding: 10px; border-radius: 4px; font-weight: bold; cursor: pointer; }
+        form button:hover { background-color: #1d4ed8; }
+        footer { background-color: #0f172a; color: white; text-align: center; padding: 15px; margin-top: auto; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bioinfo Platform</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="domaines.html">Domaines</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <form>
+            <h2>Contactez l'équipe</h2>
+            <label for="nom">Nom ou Laboratoire</label>
+            <input type="text" id="nom" placeholder="Votre nom...">
+            
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Votre message concernant les projets..."></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Portail Bioinformatique & Santé</p>
+    </footer>
+
+</body>
+</html>
